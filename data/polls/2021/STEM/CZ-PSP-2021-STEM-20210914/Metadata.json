@@ -1,0 +1,31 @@
+{
+  "archive_version": "1.0",
+
+  "poll_id": "CZ-PSP-2021-STEM-20210914",
+
+  "agency": "STEM",
+  "election_year": 2021,
+
+  "fieldwork_from": "2021-08-31",
+  "fieldwork_to": "2021-09-08",
+
+  "publication_date": "2021-09-14",
+
+  "sample_size": 1014,
+
+  "method": "CAWI + CATI",
+
+  "client": null,
+
+  "source_status": "original",
+
+  "original_url": "https://www.stem.cz/volebni-preference-stem-zari-2021/",
+
+  "wayback_url": null,
+
+  "download_date": "2026-07-19",
+
+  "verification_status": "verified",
+
+  "notes": ""
+}
