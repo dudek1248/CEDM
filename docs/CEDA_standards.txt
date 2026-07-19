@@ -1,0 +1,84 @@
+# CEDA – Central Election Data Archive
+## Datový standard v1.0
+
+### Účel
+
+CEDA je neměnný archiv historických dat používaných modelem CEDM.
+
+Archiv nikdy neupravuje historická data.
+Případné opravy se provádějí pouze přidáním nových souborů nebo opravou metadat, nikdy přepisem obsahu průzkumu.
+
+---
+
+# Struktura adresářů
+
+CEDM/
+└── data/
+    └── polls/
+        └── ROK/
+            └── AGENTURA/
+                └── PRŮZKUM/
+
+Příklad:
+
+data/polls/2021/STEM/CZ-PSP-2021-STEM-20210914/
+
+---
+
+# Obsah složky průzkumu
+
+metadata.json
+
+CZ-PSP-2021-STEM-20210914.pdf
+
+results.csv (volitelné)
+
+archive.pdf (pokud existuje archivní kopie)
+
+---
+
+# Pojmenování průzkumu
+
+CZ-PSP-ROK-AGENTURA-DATUMPUBLIKACE
+
+Příklad:
+
+CZ-PSP-2021-STEM-20210914
+
+---
+
+# Metadata
+
+Každý průzkum obsahuje metadata.json podle standardu CEDA Metadata v1.0.
+
+---
+
+# Zdroje
+
+source_status může nabývat hodnot:
+
+original
+wayback
+media_copy
+
+---
+
+# Stav zpracování
+
+verification_status:
+
+raw
+parsed
+verified
+
+---
+
+# Zásady
+
+Originální PDF se nikdy neupravuje.
+
+Výsledky modelu nejsou součástí CEDA.
+
+CEDA obsahuje pouze historická data.
+
+CEDM provádí analýzy nad CEDA.
