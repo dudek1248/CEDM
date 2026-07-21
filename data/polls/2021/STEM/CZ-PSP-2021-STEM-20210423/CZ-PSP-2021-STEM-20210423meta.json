@@ -1,0 +1,59 @@
+{
+    "archive_version": "1.0",
+
+    "poll_id": "CZ-PSP-2021-STEM-20210423",
+
+    "agency": "STEM",
+
+    "election": {
+        "country": "CZ",
+        "type": "PSP",
+        "year": 2021
+    },
+
+    "fieldwork": {
+        "from": "2021-04-07",
+        "to": "2021-04-13"
+    },
+
+    "publication_date": "2021-04-23",
+
+    "sample": {
+        "size": 1049,
+
+        "method": "mixed",
+
+        "modes": {
+            "CAWI": 725,
+            "CATI": 324
+        }
+    },
+
+    "client": null,
+
+    "methodology": {
+        "weighting": [
+            "pohlaví",
+            "věk",
+            "vzdělání",
+            "kraj",
+            "velikost obce"
+        ],
+
+        "margin_of_error": null,
+
+        "population": "voliči 18+"
+    },
+
+    "source": {
+        "status": "original",
+
+        "original_url": "https://www.stem.cz/volebni-preference-stem-duben-2021/",
+
+        "wayback_url": null
+    },
+
+    "verification_status": "verified",
+
+    "notes": ""
+}
