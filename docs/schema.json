@@ -1,0 +1,36 @@
+{
+  "poll_id": {
+    "type": "string",
+    "description": "Jednoznačný identifikátor průzkumu."
+  },
+
+  "fieldwork.from": {
+    "type": "date",
+    "description": "První den sběru dat."
+  },
+
+  "fieldwork.to": {
+    "type": "date",
+    "description": "Poslední den sběru dat."
+  },
+
+  "sample.size": {
+    "type": "integer",
+    "description": "Počet respondentů zařazených do finálního vzorku."
+  },
+
+  "sample.modes.CAWI": {
+    "type": "integer",
+    "description": "Počet respondentů oslovených metodou CAWI."
+  },
+
+  "verification_status": {
+    "type": "string",
+    "allowed": [
+      "raw",
+      "parsed",
+      "verified"
+    ],
+    "description": "Stupeň ověření dat."
+  }
+}
